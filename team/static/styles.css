@@ -1,13 +1,14 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     size: 18px;
 } 
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
 }
 
 .header {
@@ -15,7 +16,7 @@ h1 {
     align-items: center;
     justify-content: center;
     background-color:dodgerblue;
-    padding: 8px 200px 80px;
+    padding: 8px 30px 30px;
     color: whitesmoke;
 }
 
@@ -27,12 +28,31 @@ h1 {
     gap: 16px;
 }
 
-a {
+.header-links a {
     color: whitesmoke;
     text-decoration: none;
+    background-color: rgb(110, 131, 200);
+    padding-left: 3px;
+    padding-right: 3px;
+    display: flex;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    flex-direction: column;
+}
+
+.header-links a:hover {
+    background-color:rgb(33, 7, 180);
 }
 
 #showcase-link {
     color: rgb(39, 69, 177);
     text-decoration: none;
+}
+
+.paragraph {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
